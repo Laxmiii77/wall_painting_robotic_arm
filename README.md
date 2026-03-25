@@ -34,6 +34,8 @@ The system generates optimized painting trajectories, executes smooth Cartesian 
 
 ## 📊 Results
 <image src= moveit_resources-ros2/image1.png/>
+
+  
 | Test | Coverage | Planned Time | Actual Time |
 |------|---------|-------------|------------|
 | 1 | 53.09% | 27.44s | 27.48s |
