@@ -3,7 +3,7 @@
 ## Simulation Video
 [https://www.youtube.com/watch?v=1SAAv57ydL4](https://www.youtube.com/watch?v=h-pQkV4MC3g)
 
-<image src=image.png/>
+<image src=moveit_resources-ros2/image.png/>
 
 ## 📌 Overview
 This project focuses on designing and simulating a robotic wall-painting system using a **Franka Panda manipulator** in a **ROS 2 + MoveIt 2** environment.
