@@ -33,7 +33,7 @@ The system generates optimized painting trajectories, executes smooth Cartesian 
 
 
 ## 📊 Results
-<image src= moveit_resources-ros2/Screenshot%20from%202026-03-25%2012-45-33.png.png/>
+<image src= moveit_resources-ros2/image3.png/>
 
   
 | Test | Coverage | Planned Time | Actual Time |
