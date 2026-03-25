@@ -1,0 +1,21 @@
+[0.227s] Invoking command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo:/home/laxmi-arz-i006/moveit_resources-ros2/install/arm:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laxmi-arz-i006/moveit_resources-ros2/build/hello_moveit -- -j16 -l16
+[0.310s] [ 50%] Built target plan_around_objects
+[0.311s] [ 75%] [32mBuilding CXX object CMakeFiles/hello_moveit_v2.dir/src/hello_moveit_v2.cpp.o[0m
+[6.060s] [01m[K/home/laxmi-arz-i006/moveit_resources-ros2/hello_moveit/src/hello_moveit_v2.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[6.060s] [01m[K/home/laxmi-arz-i006/moveit_resources-ros2/hello_moveit/src/hello_moveit_v2.cpp:167:54:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble moveit::planning_interface::MoveGroupInterface::[01;32m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&, double, double, moveit_msgs::msg::RobotTrajectory&, bool, moveit_msgs::msg::MoveItErrorCodes*)[m[K’ is deprecated: Drop jump_threshold [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.060s]   167 |     double fraction = [01;35m[Kmove_group.computeCartesianPath(waypoints, eef_step, jump_threshold, trajectory)[m[K;
+[6.060s]       |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.060s] In file included from [01m[K/home/laxmi-arz-i006/moveit_resources-ros2/hello_moveit/src/hello_moveit_v2.cpp:8[m[K:
+[6.060s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:765:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.060s]   765 |   [01;36m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose>& waypoints, double eef_step,
+[6.060s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[6.066s] [01m[K/home/laxmi-arz-i006/moveit_resources-ros2/hello_moveit/src/hello_moveit_v2.cpp:173:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kjmg[m[K’ was not declared in this scope
+[6.066s]   173 |     visual_tools.publishTrajectoryLine(trajectory, [01;31m[Kjmg[m[K);
+[6.066s]       |                                                    [01;31m[K^~~[m[K
+[6.068s] [01m[K/home/laxmi-arz-i006/moveit_resources-ros2/hello_moveit/src/hello_moveit_v2.cpp:117:42:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.068s]   117 |     const moveit::core::JointModelGroup* [01;35m[Kjoint_model_group[m[K =
+[6.068s]       |                                          [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[8.686s] gmake[2]: *** [CMakeFiles/hello_moveit_v2.dir/build.make:76: CMakeFiles/hello_moveit_v2.dir/src/hello_moveit_v2.cpp.o] Error 1
+[8.686s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/hello_moveit_v2.dir/all] Error 2
+[8.686s] gmake: *** [Makefile:146: all] Error 2
+[8.689s] Invoked command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/hello_moveit' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo:/home/laxmi-arz-i006/moveit_resources-ros2/install/arm:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laxmi-arz-i006/moveit_resources-ros2/build/hello_moveit -- -j16 -l16

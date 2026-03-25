@@ -1,0 +1,17 @@
+{
+  "package_name": "moveit_task_constructor_msgs",
+  "non_idl_tuples": [
+    "/home/laxmi-arz-i006/moveit_resources-ros2/moveit_task_constructor/msgs:msg/Property.msg",
+    "/home/laxmi-arz-i006/moveit_resources-ros2/moveit_task_constructor/msgs:msg/Solution.msg",
+    "/home/laxmi-arz-i006/moveit_resources-ros2/moveit_task_constructor/msgs:msg/SolutionInfo.msg",
+    "/home/laxmi-arz-i006/moveit_resources-ros2/moveit_task_constructor/msgs:msg/StageDescription.msg",
+    "/home/laxmi-arz-i006/moveit_resources-ros2/moveit_task_constructor/msgs:msg/StageStatistics.msg",
+    "/home/laxmi-arz-i006/moveit_resources-ros2/moveit_task_constructor/msgs:msg/SubSolution.msg",
+    "/home/laxmi-arz-i006/moveit_resources-ros2/moveit_task_constructor/msgs:msg/SubTrajectory.msg",
+    "/home/laxmi-arz-i006/moveit_resources-ros2/moveit_task_constructor/msgs:msg/TaskDescription.msg",
+    "/home/laxmi-arz-i006/moveit_resources-ros2/moveit_task_constructor/msgs:msg/TaskStatistics.msg",
+    "/home/laxmi-arz-i006/moveit_resources-ros2/moveit_task_constructor/msgs:msg/TrajectoryExecutionInfo.msg",
+    "/home/laxmi-arz-i006/moveit_resources-ros2/moveit_task_constructor/msgs:srv/GetSolution.srv",
+    "/home/laxmi-arz-i006/moveit_resources-ros2/moveit_task_constructor/msgs:action/ExecuteTaskSolution.action"
+  ]
+}

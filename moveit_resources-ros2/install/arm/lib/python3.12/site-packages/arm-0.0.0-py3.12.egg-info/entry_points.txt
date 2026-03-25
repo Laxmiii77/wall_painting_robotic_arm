@@ -1,0 +1,2 @@
+[console_scripts]
+add_wall = arm.planning_scene:main

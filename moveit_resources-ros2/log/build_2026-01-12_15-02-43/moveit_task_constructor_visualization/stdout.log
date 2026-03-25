@@ -1,0 +1,23 @@
+[  0%] Built target moveit_task_visualization_tools_autogen_timestamp_deps
+[  0%] Built target gtest_autogen_timestamp_deps
+[  0%] Built target motion_planning_tasks_utils_autogen_timestamp_deps
+[  0%] Built target gtest_main_autogen_timestamp_deps
+[  0%] Built target motion_planning_tasks_properties_autogen_timestamp_deps
+[  0%] Built target gmock_autogen_timestamp_deps
+[  0%] Built target gmock_main_autogen_timestamp_deps
+[  1%] Built target gtest_autogen
+[  2%] Built target moveit_task_visualization_tools_autogen
+[  3%] Built target motion_planning_tasks_properties_autogen
+[  6%] Built target motion_planning_tasks_utils_autogen
+[  5%] Built target gmock_main_autogen
+[  7%] Built target gtest_main_autogen
+[  9%] Built target gmock_autogen
+[ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 15%] Built target gtest_main
+[ 17%] [32mBuilding CXX object motion_planning_tasks/properties/CMakeFiles/motion_planning_tasks_properties.dir/property_factory.cpp.o[0m
+[ 25%] Built target motion_planning_tasks_utils
+[ 30%] Built target gmock_main
+[ 31%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/jazzy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[ 32%] [32mBuilding CXX object visualization_tools/CMakeFiles/moveit_task_visualization_tools.dir/src/display_solution.cpp.o[0m
+[ 34%] [32mBuilding CXX object visualization_tools/CMakeFiles/moveit_task_visualization_tools.dir/src/task_solution_visualization.cpp.o[0m
+[ 35%] [32mBuilding CXX object visualization_tools/CMakeFiles/moveit_task_visualization_tools.dir/src/marker_visualization.cpp.o[0m

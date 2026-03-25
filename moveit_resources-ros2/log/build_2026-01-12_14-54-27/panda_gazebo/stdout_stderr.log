@@ -1,0 +1,40 @@
+running egg_info
+creating ../build/panda_gazebo/panda_gazebo.egg-info
+writing ../build/panda_gazebo/panda_gazebo.egg-info/PKG-INFO
+writing dependency_links to ../build/panda_gazebo/panda_gazebo.egg-info/dependency_links.txt
+writing requirements to ../build/panda_gazebo/panda_gazebo.egg-info/requires.txt
+writing top-level names to ../build/panda_gazebo/panda_gazebo.egg-info/top_level.txt
+writing manifest file '../build/panda_gazebo/panda_gazebo.egg-info/SOURCES.txt'
+reading manifest file '../build/panda_gazebo/panda_gazebo.egg-info/SOURCES.txt'
+writing manifest file '../build/panda_gazebo/panda_gazebo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/laxmi-arz-i006/moveit_resources-ros2/build/panda_gazebo/build
+creating /home/laxmi-arz-i006/moveit_resources-ros2/build/panda_gazebo/build/lib
+creating /home/laxmi-arz-i006/moveit_resources-ros2/build/panda_gazebo/build/lib/panda_gazebo
+copying panda_gazebo/__init__.py -> /home/laxmi-arz-i006/moveit_resources-ros2/build/panda_gazebo/build/lib/panda_gazebo
+running install
+running install_lib
+creating /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/lib/python3.12/site-packages/panda_gazebo
+copying /home/laxmi-arz-i006/moveit_resources-ros2/build/panda_gazebo/build/lib/panda_gazebo/__init__.py -> /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/lib/python3.12/site-packages/panda_gazebo
+byte-compiling /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/lib/python3.12/site-packages/panda_gazebo/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/ament_index
+creating /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/ament_index/resource_index
+creating /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/ament_index/resource_index/packages
+copying resource/panda_gazebo -> /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/ament_index/resource_index/packages
+copying package.xml -> /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/panda_gazebo
+creating /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/panda_gazebo/launch
+copying launch/controller.launch.py -> /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/panda_gazebo/launch
+copying launch/empty_world.launch.py -> /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/panda_gazebo/launch
+copying launch/rsp.launch.py -> /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/panda_gazebo/launch
+creating /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/panda_gazebo/sdf
+creating /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/panda_gazebo/urdf
+copying urdf/panda.urdf -> /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/panda_gazebo/urdf
+copying urdf/camera.urdf -> /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/panda_gazebo/urdf
+copying urdf/intel_rgbd_cam_d435.urdf.xacro -> /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/panda_gazebo/urdf
+copying urdf/panda.urdf.xacro -> /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/panda_gazebo/urdf
+running install_egg_info
+Copying ../build/panda_gazebo/panda_gazebo.egg-info to /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/lib/python3.12/site-packages/panda_gazebo-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/laxmi-arz-i006/moveit_resources-ros2/build/panda_gazebo/install.log'

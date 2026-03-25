@@ -1,0 +1,63 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"python/bindings/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"python/bindings/libmoveit_task_constructor_core_python_tools.so"
+			],
+			"targetId" : "moveit_task_constructor_core_python_tools::@2eea7b98123d8100bb1e",
+			"targetIndex" : 23,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/python3.12/site-packages",
+			"paths" : 
+			[
+				"python/bindings/pymoveit_mtc.cpython-312-x86_64-linux-gnu.so"
+			],
+			"targetId" : "pymoveit_mtc::@2eea7b98123d8100bb1e",
+			"targetIndex" : 30,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "python/bindings",
+		"source" : "python/bindings"
+	}
+}

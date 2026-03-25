@@ -1,0 +1,37 @@
+[0.338s] Invoking command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/mycobot_mtc_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo:/home/laxmi-arz-i006/moveit_resources-ros2/install/arm:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laxmi-arz-i006/moveit_resources-ros2/build/mycobot_mtc_demos -- -j16 -l16
+[0.436s] [ 16%] Built target ik_clearance_cost_parameters
+[0.457s] [ 33%] Built target mycobot_mtc_demos_cartesian
+[0.461s] [ 75%] Built target mycobot_mtc_demos_modular
+[0.462s] [ 75%] Built target mycobot_mtc_demos_fallbacks_move_to
+[0.462s] [ 83%] Built target mycobot_mtc_demos_alternative_path_costs
+[0.493s] [100%] Built target mycobot_mtc_demos_ik_clearance_cost
+[0.805s] Invoked command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/mycobot_mtc_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo:/home/laxmi-arz-i006/moveit_resources-ros2/install/arm:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laxmi-arz-i006/moveit_resources-ros2/build/mycobot_mtc_demos -- -j16 -l16
+[0.806s] Invoking command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/mycobot_mtc_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo:/home/laxmi-arz-i006/moveit_resources-ros2/install/arm:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laxmi-arz-i006/moveit_resources-ros2/build/mycobot_mtc_demos
+[0.827s] -- Install configuration: "Release"
+[0.828s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/lib/mycobot_mtc_demos/alternative_path_costs
+[0.829s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/lib/mycobot_mtc_demos/cartesian
+[0.829s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/lib/mycobot_mtc_demos/fallbacks_move_to
+[0.830s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/include/mycobot_mtc_demos
+[0.830s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/include/mycobot_mtc_demos/ik_clearance_cost_parameters.hpp
+[0.830s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/lib/mycobot_mtc_demos/ik_clearance_cost
+[0.831s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/lib/mycobot_mtc_demos/modular
+[0.831s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/mycobot_mtc_demos/launch
+[0.831s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/mycobot_mtc_demos/launch/mtc_demos.launch.py
+[0.831s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/mycobot_mtc_demos/rviz
+[0.831s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/mycobot_mtc_demos/rviz/mtc_demos.rviz
+[0.832s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/ament_index/resource_index/package_run_dependencies/mycobot_mtc_demos
+[0.832s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/ament_index/resource_index/parent_prefix_path/mycobot_mtc_demos
+[0.832s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/mycobot_mtc_demos/environment/ament_prefix_path.sh
+[0.832s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/mycobot_mtc_demos/environment/ament_prefix_path.dsv
+[0.832s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/mycobot_mtc_demos/environment/path.sh
+[0.832s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/mycobot_mtc_demos/environment/path.dsv
+[0.833s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/mycobot_mtc_demos/local_setup.bash
+[0.833s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/mycobot_mtc_demos/local_setup.sh
+[0.833s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/mycobot_mtc_demos/local_setup.zsh
+[0.833s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/mycobot_mtc_demos/local_setup.dsv
+[0.833s] -- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/mycobot_mtc_demos/package.dsv
+[0.834s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/ament_index/resource_index/packages/mycobot_mtc_demos
+[0.834s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/mycobot_mtc_demos/cmake/mycobot_mtc_demosConfig.cmake
+[0.835s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/mycobot_mtc_demos/cmake/mycobot_mtc_demosConfig-version.cmake
+[0.835s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/mycobot_mtc_demos/package.xml
+[0.853s] Invoked command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/mycobot_mtc_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo:/home/laxmi-arz-i006/moveit_resources-ros2/install/arm:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laxmi-arz-i006/moveit_resources-ros2/build/mycobot_mtc_demos

@@ -1,0 +1,67 @@
+[0.040s] Invoking command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/rviz_marker_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/laxmi-arz-i006/moveit_resources-ros2/moveit_task_constructor/rviz_marker_tools -DCMAKE_INSTALL_PREFIX=/home/laxmi-arz-i006/moveit_resources-ros2/install/rviz_marker_tools
+[0.419s] -- The C compiler identification is GNU 13.3.0
+[0.420s] -- The CXX compiler identification is GNU 13.3.0
+[0.420s] -- Detecting C compiler ABI info
+[0.420s] -- Detecting C compiler ABI info - done
+[0.420s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.420s] -- Detecting C compile features
+[0.421s] -- Detecting C compile features - done
+[0.421s] -- Detecting CXX compiler ABI info
+[0.558s] -- Detecting CXX compiler ABI info - done
+[0.570s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.571s] -- Detecting CXX compile features
+[0.572s] -- Detecting CXX compile features - done
+[0.592s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.832s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.030s] -- Found moveit_common: 2.12.3 (/opt/ros/jazzy/share/moveit_common/cmake)
+[1.161s] [0mrviz_marker_tools: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[1.170s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.277s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.306s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.337s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.390s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.580s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.596s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.796s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.839s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.882s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.083s] -- Found tf2_eigen: 0.36.16 (/opt/ros/jazzy/share/tf2_eigen/cmake)
+[2.428s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[2.529s] -- Configuring done (2.5s)
+[2.571s] -- Generating done (0.0s)
+[2.575s] -- Build files have been written to: /home/laxmi-arz-i006/moveit_resources-ros2/build/rviz_marker_tools
+[2.603s] Invoked command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/rviz_marker_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/laxmi-arz-i006/moveit_resources-ros2/moveit_task_constructor/rviz_marker_tools -DCMAKE_INSTALL_PREFIX=/home/laxmi-arz-i006/moveit_resources-ros2/install/rviz_marker_tools
+[2.603s] Invoking command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/rviz_marker_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laxmi-arz-i006/moveit_resources-ros2/build/rviz_marker_tools -- -j16 -l16
+[2.676s] [ 50%] [32mBuilding CXX object CMakeFiles/rviz_marker_tools.dir/src/marker_creation.cpp.o[0m
+[9.213s] [100%] [32m[1mLinking CXX shared library librviz_marker_tools.so[0m
+[9.381s] [100%] Built target rviz_marker_tools
+[9.398s] Invoked command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/rviz_marker_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laxmi-arz-i006/moveit_resources-ros2/build/rviz_marker_tools -- -j16 -l16
+[9.399s] Invoking command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/rviz_marker_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laxmi-arz-i006/moveit_resources-ros2/build/rviz_marker_tools
+[9.411s] -- Install configuration: "Release"
+[9.411s] -- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/rviz_marker_tools/include
+[9.411s] -- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/rviz_marker_tools/include/rviz_marker_tools
+[9.412s] -- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/rviz_marker_tools/include/rviz_marker_tools/marker_creation.h
+[9.412s] -- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/rviz_marker_tools/lib/librviz_marker_tools.so
+[9.412s] -- Set non-toolchain portion of runtime path of "/home/laxmi-arz-i006/moveit_resources-ros2/install/rviz_marker_tools/lib/librviz_marker_tools.so" to ""
+[9.412s] -- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/rviz_marker_tools/share/rviz_marker_tools/environment/library_path.sh
+[9.412s] -- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/rviz_marker_tools/share/rviz_marker_tools/environment/library_path.dsv
+[9.413s] -- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/rviz_marker_tools/share/ament_index/resource_index/package_run_dependencies/rviz_marker_tools
+[9.413s] -- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/rviz_marker_tools/share/ament_index/resource_index/parent_prefix_path/rviz_marker_tools
+[9.413s] -- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/rviz_marker_tools/share/rviz_marker_tools/environment/ament_prefix_path.sh
+[9.413s] -- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/rviz_marker_tools/share/rviz_marker_tools/environment/ament_prefix_path.dsv
+[9.413s] -- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/rviz_marker_tools/share/rviz_marker_tools/environment/path.sh
+[9.413s] -- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/rviz_marker_tools/share/rviz_marker_tools/environment/path.dsv
+[9.414s] -- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.bash
+[9.414s] -- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.sh
+[9.414s] -- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.zsh
+[9.414s] -- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.dsv
+[9.414s] -- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/rviz_marker_tools/share/rviz_marker_tools/package.dsv
+[9.415s] -- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/rviz_marker_tools/share/ament_index/resource_index/packages/rviz_marker_tools
+[9.415s] -- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsTargetsExport.cmake
+[9.415s] -- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsTargetsExport-release.cmake
+[9.415s] -- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/rviz_marker_tools/share/rviz_marker_tools/cmake/ament_cmake_export_targets-extras.cmake
+[9.415s] -- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/rviz_marker_tools/share/rviz_marker_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.416s] -- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsConfig.cmake
+[9.416s] -- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsConfig-version.cmake
+[9.416s] -- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/rviz_marker_tools/share/rviz_marker_tools/package.xml
+[9.420s] Invoked command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/rviz_marker_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laxmi-arz-i006/moveit_resources-ros2/build/rviz_marker_tools

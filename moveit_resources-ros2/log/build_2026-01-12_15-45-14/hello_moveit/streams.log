@@ -1,0 +1,35 @@
+[0.341s] Invoking command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo:/home/laxmi-arz-i006/moveit_resources-ros2/install/arm:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laxmi-arz-i006/moveit_resources-ros2/build/hello_moveit -- -j16 -l16
+[0.474s] [ 50%] Built target plan_around_objects
+[0.476s] [ 75%] [32mBuilding CXX object CMakeFiles/hello_moveit_v2.dir/src/hello_moveit_v2.cpp.o[0m
+[8.844s] [01m[K/home/laxmi-arz-i006/moveit_resources-ros2/hello_moveit/src/hello_moveit_v2.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[8.844s] [01m[K/home/laxmi-arz-i006/moveit_resources-ros2/hello_moveit/src/hello_moveit_v2.cpp:168:54:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble moveit::planning_interface::MoveGroupInterface::[01;32m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&, double, double, moveit_msgs::msg::RobotTrajectory&, bool, moveit_msgs::msg::MoveItErrorCodes*)[m[K’ is deprecated: Drop jump_threshold [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[8.844s]   168 |     double fraction = [01;35m[Kmove_group.computeCartesianPath(waypoints, eef_step, jump_threshold, trajectory)[m[K;
+[8.845s]       |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.845s] In file included from [01m[K/home/laxmi-arz-i006/moveit_resources-ros2/hello_moveit/src/hello_moveit_v2.cpp:8[m[K:
+[8.845s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:765:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[8.845s]   765 |   [01;36m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose>& waypoints, double eef_step,
+[8.845s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[13.123s] [100%] [32m[1mLinking CXX executable hello_moveit_v2[0m
+[13.981s] [100%] Built target hello_moveit_v2
+[13.995s] Invoked command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo:/home/laxmi-arz-i006/moveit_resources-ros2/install/arm:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laxmi-arz-i006/moveit_resources-ros2/build/hello_moveit -- -j16 -l16
+[13.997s] Invoking command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo:/home/laxmi-arz-i006/moveit_resources-ros2/install/arm:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laxmi-arz-i006/moveit_resources-ros2/build/hello_moveit
+[14.008s] -- Install configuration: ""
+[14.008s] -- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/lib/hello_moveit/hello_moveit_v2
+[14.009s] -- Set non-toolchain portion of runtime path of "/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/lib/hello_moveit/hello_moveit_v2" to ""
+[14.010s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/lib/hello_moveit/plan_around_objects
+[14.010s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit
+[14.010s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit
+[14.010s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh
+[14.010s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv
+[14.010s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/environment/path.sh
+[14.011s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/environment/path.dsv
+[14.011s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/local_setup.bash
+[14.011s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/local_setup.sh
+[14.011s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/local_setup.zsh
+[14.011s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/local_setup.dsv
+[14.011s] -- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/package.dsv
+[14.011s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit
+[14.011s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake
+[14.011s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake
+[14.012s] -- Up-to-date: /home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/package.xml
+[14.014s] Invoked command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo:/home/laxmi-arz-i006/moveit_resources-ros2/install/arm:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laxmi-arz-i006/moveit_resources-ros2/build/hello_moveit

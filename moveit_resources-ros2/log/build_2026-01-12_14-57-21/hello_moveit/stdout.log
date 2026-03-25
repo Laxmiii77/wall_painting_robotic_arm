@@ -1,0 +1,24 @@
+[ 50%] Built target plan_around_objects
+[ 75%] [32mBuilding CXX object CMakeFiles/hello_moveit_v2.dir/src/hello_moveit_v2.cpp.o[0m
+[100%] [32m[1mLinking CXX executable hello_moveit_v2[0m
+[100%] Built target hello_moveit_v2
+-- Install configuration: ""
+-- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/lib/hello_moveit/hello_moveit_v2
+-- Set non-toolchain portion of runtime path of "/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/lib/hello_moveit/hello_moveit_v2" to ""
+-- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/lib/hello_moveit/plan_around_objects
+-- Set non-toolchain portion of runtime path of "/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/lib/hello_moveit/plan_around_objects" to ""
+-- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit
+-- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit
+-- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh
+-- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv
+-- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/environment/path.sh
+-- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/environment/path.dsv
+-- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/local_setup.bash
+-- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/local_setup.sh
+-- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/local_setup.zsh
+-- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/local_setup.dsv
+-- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/package.dsv
+-- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit
+-- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake
+-- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake
+-- Installing: /home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/package.xml

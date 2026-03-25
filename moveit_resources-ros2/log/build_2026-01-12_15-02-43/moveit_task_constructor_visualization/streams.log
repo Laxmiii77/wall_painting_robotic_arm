@@ -1,0 +1,24 @@
+[0.031s] Invoking command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_task_constructor_visualization': AMENT_PREFIX_PATH=/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_task_constructor_core:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config:/home/laxmi-arz-i006/moveit_resources-ros2/install/rviz_marker_tools:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_task_constructor_msgs:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake CMAKE_PREFIX_PATH=/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_task_constructor_core:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config:/home/laxmi-arz-i006/moveit_resources-ros2/install/rviz_marker_tools:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_task_constructor_msgs:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_task_constructor_core/lib:/home/laxmi-arz-i006/moveit_resources-ros2/install/rviz_marker_tools/lib:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_task_constructor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_task_constructor_core/lib/python3.12/site-packages:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_task_constructor_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_task_constructor_visualization -- -j16 -l16
+[0.176s] [  0%] Built target moveit_task_visualization_tools_autogen_timestamp_deps
+[0.183s] [  0%] Built target gtest_autogen_timestamp_deps
+[0.194s] [  0%] Built target motion_planning_tasks_utils_autogen_timestamp_deps
+[0.207s] [  0%] Built target gtest_main_autogen_timestamp_deps
+[0.219s] [  0%] Built target motion_planning_tasks_properties_autogen_timestamp_deps
+[0.233s] [  0%] Built target gmock_autogen_timestamp_deps
+[0.283s] [  0%] Built target gmock_main_autogen_timestamp_deps
+[0.379s] [  1%] Built target gtest_autogen
+[0.383s] [  2%] Built target moveit_task_visualization_tools_autogen
+[0.423s] [  3%] Built target motion_planning_tasks_properties_autogen
+[0.434s] [  6%] Built target motion_planning_tasks_utils_autogen
+[0.436s] [  5%] Built target gmock_main_autogen
+[0.437s] [  7%] Built target gtest_main_autogen
+[0.497s] [  9%] Built target gmock_autogen
+[0.539s] [ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.560s] [ 15%] Built target gtest_main
+[0.564s] [ 17%] [32mBuilding CXX object motion_planning_tasks/properties/CMakeFiles/motion_planning_tasks_properties.dir/property_factory.cpp.o[0m
+[0.576s] [ 25%] Built target motion_planning_tasks_utils
+[0.582s] [ 30%] Built target gmock_main
+[0.610s] [ 31%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/jazzy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[0.760s] [ 32%] [32mBuilding CXX object visualization_tools/CMakeFiles/moveit_task_visualization_tools.dir/src/display_solution.cpp.o[0m
+[0.776s] [ 34%] [32mBuilding CXX object visualization_tools/CMakeFiles/moveit_task_visualization_tools.dir/src/task_solution_visualization.cpp.o[0m
+[0.804s] [ 35%] [32mBuilding CXX object visualization_tools/CMakeFiles/moveit_task_visualization_tools.dir/src/marker_visualization.cpp.o[0m

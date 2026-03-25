@@ -1,0 +1,42 @@
+[1.931s] Invoking command in '/home/laxmi-arz-i006/moveit_resources-ros2/panda_gazebo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/laxmi-arz-i006/moveit_resources-ros2/build/panda_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/panda_gazebo build --build-base /home/laxmi-arz-i006/moveit_resources-ros2/build/panda_gazebo/build install --record /home/laxmi-arz-i006/moveit_resources-ros2/build/panda_gazebo/install.log --single-version-externally-managed install_data
+[2.353s] running egg_info
+[2.353s] creating ../build/panda_gazebo/panda_gazebo.egg-info
+[2.394s] writing ../build/panda_gazebo/panda_gazebo.egg-info/PKG-INFO
+[2.395s] writing dependency_links to ../build/panda_gazebo/panda_gazebo.egg-info/dependency_links.txt
+[2.395s] writing requirements to ../build/panda_gazebo/panda_gazebo.egg-info/requires.txt
+[2.395s] writing top-level names to ../build/panda_gazebo/panda_gazebo.egg-info/top_level.txt
+[2.395s] writing manifest file '../build/panda_gazebo/panda_gazebo.egg-info/SOURCES.txt'
+[2.469s] reading manifest file '../build/panda_gazebo/panda_gazebo.egg-info/SOURCES.txt'
+[2.472s] writing manifest file '../build/panda_gazebo/panda_gazebo.egg-info/SOURCES.txt'
+[2.472s] running build
+[2.472s] running build_py
+[2.472s] creating /home/laxmi-arz-i006/moveit_resources-ros2/build/panda_gazebo/build
+[2.472s] creating /home/laxmi-arz-i006/moveit_resources-ros2/build/panda_gazebo/build/lib
+[2.473s] creating /home/laxmi-arz-i006/moveit_resources-ros2/build/panda_gazebo/build/lib/panda_gazebo
+[2.473s] copying panda_gazebo/__init__.py -> /home/laxmi-arz-i006/moveit_resources-ros2/build/panda_gazebo/build/lib/panda_gazebo
+[2.473s] running install
+[2.485s] running install_lib
+[2.520s] creating /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/lib/python3.12/site-packages/panda_gazebo
+[2.520s] copying /home/laxmi-arz-i006/moveit_resources-ros2/build/panda_gazebo/build/lib/panda_gazebo/__init__.py -> /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/lib/python3.12/site-packages/panda_gazebo
+[2.521s] byte-compiling /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/lib/python3.12/site-packages/panda_gazebo/__init__.py to __init__.cpython-312.pyc
+[2.521s] running install_data
+[2.521s] creating /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/ament_index
+[2.521s] creating /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/ament_index/resource_index
+[2.522s] creating /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/ament_index/resource_index/packages
+[2.522s] copying resource/panda_gazebo -> /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/ament_index/resource_index/packages
+[2.524s] copying package.xml -> /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/panda_gazebo
+[2.524s] creating /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/panda_gazebo/launch
+[2.525s] copying launch/controller.launch.py -> /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/panda_gazebo/launch
+[2.525s] copying launch/empty_world.launch.py -> /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/panda_gazebo/launch
+[2.525s] copying launch/rsp.launch.py -> /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/panda_gazebo/launch
+[2.526s] creating /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/panda_gazebo/sdf
+[2.528s] creating /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/panda_gazebo/urdf
+[2.529s] copying urdf/panda.urdf -> /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/panda_gazebo/urdf
+[2.532s] copying urdf/camera.urdf -> /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/panda_gazebo/urdf
+[2.533s] copying urdf/intel_rgbd_cam_d435.urdf.xacro -> /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/panda_gazebo/urdf
+[2.534s] copying urdf/panda.urdf.xacro -> /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/panda_gazebo/urdf
+[2.534s] running install_egg_info
+[2.558s] Copying ../build/panda_gazebo/panda_gazebo.egg-info to /home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/lib/python3.12/site-packages/panda_gazebo-0.0.0-py3.12.egg-info
+[2.559s] running install_scripts
+[2.770s] writing list of installed files to '/home/laxmi-arz-i006/moveit_resources-ros2/build/panda_gazebo/install.log'
+[2.809s] Invoked command in '/home/laxmi-arz-i006/moveit_resources-ros2/panda_gazebo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/laxmi-arz-i006/moveit_resources-ros2/build/panda_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/panda_gazebo build --build-base /home/laxmi-arz-i006/moveit_resources-ros2/build/panda_gazebo/build install --record /home/laxmi-arz-i006/moveit_resources-ros2/build/panda_gazebo/install.log --single-version-externally-managed install_data

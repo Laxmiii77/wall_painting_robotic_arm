@@ -1,0 +1,38 @@
+running egg_info
+creating ../build/arm/arm.egg-info
+writing ../build/arm/arm.egg-info/PKG-INFO
+writing dependency_links to ../build/arm/arm.egg-info/dependency_links.txt
+writing entry points to ../build/arm/arm.egg-info/entry_points.txt
+writing requirements to ../build/arm/arm.egg-info/requires.txt
+writing top-level names to ../build/arm/arm.egg-info/top_level.txt
+writing manifest file '../build/arm/arm.egg-info/SOURCES.txt'
+reading manifest file '../build/arm/arm.egg-info/SOURCES.txt'
+writing manifest file '../build/arm/arm.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/laxmi-arz-i006/moveit_resources-ros2/build/arm/build
+creating /home/laxmi-arz-i006/moveit_resources-ros2/build/arm/build/lib
+creating /home/laxmi-arz-i006/moveit_resources-ros2/build/arm/build/lib/arm
+copying arm/__init__.py -> /home/laxmi-arz-i006/moveit_resources-ros2/build/arm/build/lib/arm
+copying arm/generate_waypoints.py -> /home/laxmi-arz-i006/moveit_resources-ros2/build/arm/build/lib/arm
+copying arm/planning_scene.py -> /home/laxmi-arz-i006/moveit_resources-ros2/build/arm/build/lib/arm
+running install
+running install_lib
+creating /home/laxmi-arz-i006/moveit_resources-ros2/install/arm/lib/python3.12/site-packages/arm
+copying /home/laxmi-arz-i006/moveit_resources-ros2/build/arm/build/lib/arm/__init__.py -> /home/laxmi-arz-i006/moveit_resources-ros2/install/arm/lib/python3.12/site-packages/arm
+copying /home/laxmi-arz-i006/moveit_resources-ros2/build/arm/build/lib/arm/generate_waypoints.py -> /home/laxmi-arz-i006/moveit_resources-ros2/install/arm/lib/python3.12/site-packages/arm
+copying /home/laxmi-arz-i006/moveit_resources-ros2/build/arm/build/lib/arm/planning_scene.py -> /home/laxmi-arz-i006/moveit_resources-ros2/install/arm/lib/python3.12/site-packages/arm
+byte-compiling /home/laxmi-arz-i006/moveit_resources-ros2/install/arm/lib/python3.12/site-packages/arm/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/laxmi-arz-i006/moveit_resources-ros2/install/arm/lib/python3.12/site-packages/arm/generate_waypoints.py to generate_waypoints.cpython-312.pyc
+byte-compiling /home/laxmi-arz-i006/moveit_resources-ros2/install/arm/lib/python3.12/site-packages/arm/planning_scene.py to planning_scene.cpython-312.pyc
+running install_data
+creating /home/laxmi-arz-i006/moveit_resources-ros2/install/arm/share/ament_index
+creating /home/laxmi-arz-i006/moveit_resources-ros2/install/arm/share/ament_index/resource_index
+creating /home/laxmi-arz-i006/moveit_resources-ros2/install/arm/share/ament_index/resource_index/packages
+copying resource/arm -> /home/laxmi-arz-i006/moveit_resources-ros2/install/arm/share/ament_index/resource_index/packages
+copying package.xml -> /home/laxmi-arz-i006/moveit_resources-ros2/install/arm/share/arm
+running install_egg_info
+Copying ../build/arm/arm.egg-info to /home/laxmi-arz-i006/moveit_resources-ros2/install/arm/lib/python3.12/site-packages/arm-0.0.0-py3.12.egg-info
+running install_scripts
+Installing add_wall script to /home/laxmi-arz-i006/moveit_resources-ros2/install/arm/lib/arm
+writing list of installed files to '/home/laxmi-arz-i006/moveit_resources-ros2/build/arm/install.log'

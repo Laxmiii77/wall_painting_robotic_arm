@@ -1,0 +1,676 @@
+[0.217s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.217s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x779c9f37bb60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x779c9f37b890>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x779c9f37b890>>)
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.276s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/laxmi-arz-i006/moveit_resources-ros2'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(arm) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(arm) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(arm) by extension 'ignore_ament_install'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(arm) by extensions ['colcon_pkg']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(arm) by extension 'colcon_pkg'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(arm) by extensions ['colcon_meta']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(arm) by extension 'colcon_meta'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(arm) by extensions ['ros']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(arm) by extension 'ros'
+[0.315s] DEBUG:colcon.colcon_core.package_identification:Package 'arm' with type 'ros.ament_python' and name 'arm'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(fanuc_description) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(fanuc_description) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(fanuc_description) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(fanuc_description) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(fanuc_description) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(fanuc_description) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(fanuc_description) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(fanuc_description) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(fanuc_description) by extension 'ros'
+[0.316s] DEBUG:colcon.colcon_core.package_identification:Package 'fanuc_description' with type 'ros.ament_cmake' and name 'moveit_resources_fanuc_description'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(fanuc_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(fanuc_moveit_config) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(fanuc_moveit_config) by extension 'ignore_ament_install'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(fanuc_moveit_config) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(fanuc_moveit_config) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(fanuc_moveit_config) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(fanuc_moveit_config) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(fanuc_moveit_config) by extensions ['ros']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(fanuc_moveit_config) by extension 'ros'
+[0.318s] DEBUG:colcon.colcon_core.package_identification:Package 'fanuc_moveit_config' with type 'ros.ament_cmake' and name 'moveit_resources_fanuc_moveit_config'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(hello_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(hello_moveit) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(hello_moveit) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(hello_moveit) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(hello_moveit) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(hello_moveit) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(hello_moveit) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(hello_moveit) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(hello_moveit) by extension 'ros'
+[0.319s] DEBUG:colcon.colcon_core.package_identification:Package 'hello_moveit' with type 'ros.ament_cmake' and name 'hello_moveit'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_resources) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_resources) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_resources) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_resources) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_resources) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_resources) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_resources) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_resources) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(moveit_resources) by extension 'ros'
+[0.321s] DEBUG:colcon.colcon_core.package_identification:Package 'moveit_resources' with type 'ros.ament_cmake' and name 'moveit_resources'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_mtc_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_mtc_demos) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_mtc_demos) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_mtc_demos) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_mtc_demos) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_mtc_demos) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_mtc_demos) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_mtc_demos) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_mtc_demos) by extension 'ros'
+[0.322s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_mtc_demos' with type 'ros.ament_cmake' and name 'mycobot_mtc_demos'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(panda_description) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(panda_description) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(panda_description) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(panda_description) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(panda_description) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(panda_description) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(panda_description) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(panda_description) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(panda_description) by extension 'ros'
+[0.323s] DEBUG:colcon.colcon_core.package_identification:Package 'panda_description' with type 'ros.ament_cmake' and name 'moveit_resources_panda_description'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(panda_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(panda_gazebo) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(panda_gazebo) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(panda_gazebo) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(panda_gazebo) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(panda_gazebo) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(panda_gazebo) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(panda_gazebo) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(panda_gazebo) by extension 'ros'
+[0.324s] DEBUG:colcon.colcon_core.package_identification:Package 'panda_gazebo' with type 'ros.ament_python' and name 'panda_gazebo'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(panda_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(panda_moveit_config) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(panda_moveit_config) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(panda_moveit_config) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(panda_moveit_config) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(panda_moveit_config) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(panda_moveit_config) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(panda_moveit_config) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(panda_moveit_config) by extension 'ros'
+[0.326s] DEBUG:colcon.colcon_core.package_identification:Package 'panda_moveit_config' with type 'ros.ament_cmake' and name 'moveit_resources_panda_moveit_config'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(pr2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(pr2_description) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(pr2_description) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(pr2_description) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(pr2_description) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(pr2_description) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(pr2_description) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(pr2_description) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(pr2_description) by extension 'ros'
+[0.327s] DEBUG:colcon.colcon_core.package_identification:Package 'pr2_description' with type 'ros.ament_cmake' and name 'moveit_resources_pr2_description'
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.361s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 580 installed packages in /opt/ros/jazzy
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.442s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'moveit_resources_fanuc_moveit_config' is in: /opt/ros/jazzy
+	'moveit_resources_fanuc_description' is in: /opt/ros/jazzy
+	'moveit_resources_panda_description' is in: /opt/ros/jazzy
+	'moveit_resources' is in: /opt/ros/jazzy
+	'moveit_resources_pr2_description' is in: /opt/ros/jazzy
+	'moveit_resources_panda_moveit_config' is in: /opt/ros/jazzy
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding moveit_resources moveit_resources_fanuc_description moveit_resources_fanuc_moveit_config moveit_resources_panda_description moveit_resources_panda_moveit_config moveit_resources_pr2_description
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'arm' build argument 'cmake_args' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'arm' build argument 'cmake_target' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'arm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'arm' build argument 'cmake_clean_cache' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'arm' build argument 'cmake_clean_first' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'arm' build argument 'cmake_force_configure' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'arm' build argument 'ament_cmake_args' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'arm' build argument 'catkin_cmake_args' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'arm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.444s] DEBUG:colcon.colcon_core.verb:Building package 'arm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/laxmi-arz-i006/moveit_resources-ros2/build/arm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/laxmi-arz-i006/moveit_resources-ros2/install/arm', 'merge_install': False, 'path': '/home/laxmi-arz-i006/moveit_resources-ros2/arm', 'symlink_install': False, 'test_result_base': None}
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'cmake_args' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'cmake_target' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.445s] DEBUG:colcon.colcon_core.verb:Building package 'hello_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/laxmi-arz-i006/moveit_resources-ros2/build/hello_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit', 'merge_install': False, 'path': '/home/laxmi-arz-i006/moveit_resources-ros2/hello_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_description' build argument 'cmake_args' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_description' build argument 'cmake_target' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.446s] DEBUG:colcon.colcon_core.verb:Building package 'moveit_resources_fanuc_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_fanuc_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description', 'merge_install': False, 'path': '/home/laxmi-arz-i006/moveit_resources-ros2/fanuc_description', 'symlink_install': False, 'test_result_base': None}
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_description' build argument 'cmake_args' from command line to 'None'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_description' build argument 'cmake_target' from command line to 'None'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.447s] DEBUG:colcon.colcon_core.verb:Building package 'moveit_resources_panda_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_panda_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description', 'merge_install': False, 'path': '/home/laxmi-arz-i006/moveit_resources-ros2/panda_description', 'symlink_install': False, 'test_result_base': None}
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_pr2_description' build argument 'cmake_args' from command line to 'None'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_pr2_description' build argument 'cmake_target' from command line to 'None'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_pr2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_pr2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_pr2_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_pr2_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_pr2_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_pr2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_pr2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.447s] DEBUG:colcon.colcon_core.verb:Building package 'moveit_resources_pr2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_pr2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description', 'merge_install': False, 'path': '/home/laxmi-arz-i006/moveit_resources-ros2/pr2_description', 'symlink_install': False, 'test_result_base': None}
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'mycobot_mtc_demos' build argument 'cmake_args' from command line to 'None'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'mycobot_mtc_demos' build argument 'cmake_target' from command line to 'None'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'mycobot_mtc_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'mycobot_mtc_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'mycobot_mtc_demos' build argument 'cmake_clean_first' from command line to 'False'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'mycobot_mtc_demos' build argument 'cmake_force_configure' from command line to 'False'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'mycobot_mtc_demos' build argument 'ament_cmake_args' from command line to 'None'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'mycobot_mtc_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'mycobot_mtc_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.447s] DEBUG:colcon.colcon_core.verb:Building package 'mycobot_mtc_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/laxmi-arz-i006/moveit_resources-ros2/build/mycobot_mtc_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos', 'merge_install': False, 'path': '/home/laxmi-arz-i006/moveit_resources-ros2/mycobot_mtc_demos', 'symlink_install': False, 'test_result_base': None}
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'panda_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'panda_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'panda_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'panda_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'panda_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'panda_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'panda_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'panda_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'panda_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.448s] DEBUG:colcon.colcon_core.verb:Building package 'panda_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/laxmi-arz-i006/moveit_resources-ros2/build/panda_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo', 'merge_install': False, 'path': '/home/laxmi-arz-i006/moveit_resources-ros2/panda_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.448s] DEBUG:colcon.colcon_core.verb:Building package 'moveit_resources_fanuc_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_fanuc_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config', 'merge_install': False, 'path': '/home/laxmi-arz-i006/moveit_resources-ros2/fanuc_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.449s] DEBUG:colcon.colcon_core.verb:Building package 'moveit_resources_panda_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_panda_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config', 'merge_install': False, 'path': '/home/laxmi-arz-i006/moveit_resources-ros2/panda_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources' build argument 'cmake_args' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources' build argument 'cmake_target' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources' build argument 'cmake_clean_cache' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources' build argument 'cmake_clean_first' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources' build argument 'cmake_force_configure' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources' build argument 'ament_cmake_args' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources' build argument 'catkin_cmake_args' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.449s] DEBUG:colcon.colcon_core.verb:Building package 'moveit_resources' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources', 'merge_install': False, 'path': '/home/laxmi-arz-i006/moveit_resources-ros2/moveit_resources', 'symlink_install': False, 'test_result_base': None}
+[0.450s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.451s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.451s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/laxmi-arz-i006/moveit_resources-ros2/fanuc_description' with build type 'ament_cmake'
+[0.452s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/laxmi-arz-i006/moveit_resources-ros2/fanuc_description'
+[0.457s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.458s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.458s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.463s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/laxmi-arz-i006/moveit_resources-ros2/panda_description' with build type 'ament_cmake'
+[0.463s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/laxmi-arz-i006/moveit_resources-ros2/panda_description'
+[0.464s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.464s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.470s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/laxmi-arz-i006/moveit_resources-ros2/pr2_description' with build type 'ament_cmake'
+[0.470s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/laxmi-arz-i006/moveit_resources-ros2/pr2_description'
+[0.470s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.470s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.476s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/laxmi-arz-i006/moveit_resources-ros2/arm' with build type 'ament_python'
+[0.476s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm', 'ament_prefix_path')
+[0.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/arm/share/arm/hook/ament_prefix_path.ps1'
+[0.477s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/arm/share/arm/hook/ament_prefix_path.dsv'
+[0.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/arm/share/arm/hook/ament_prefix_path.sh'
+[0.479s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.479s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.485s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/laxmi-arz-i006/moveit_resources-ros2/hello_moveit' with build type 'ament_cmake'
+[0.485s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/laxmi-arz-i006/moveit_resources-ros2/hello_moveit'
+[0.485s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.485s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.491s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/laxmi-arz-i006/moveit_resources-ros2/mycobot_mtc_demos' with build type 'ament_cmake'
+[0.491s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/laxmi-arz-i006/moveit_resources-ros2/mycobot_mtc_demos'
+[0.492s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.492s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.497s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/laxmi-arz-i006/moveit_resources-ros2/panda_gazebo' with build type 'ament_python'
+[0.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('panda_gazebo', 'ament_prefix_path')
+[0.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/panda_gazebo/hook/ament_prefix_path.ps1'
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/panda_gazebo/hook/ament_prefix_path.dsv'
+[0.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/panda_gazebo/hook/ament_prefix_path.sh'
+[0.500s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.500s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_fanuc_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_fanuc_description -- -j16 -l16
+[0.515s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_panda_description -- -j16 -l16
+[0.518s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_pr2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_pr2_description -- -j16 -l16
+[0.771s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/laxmi-arz-i006/moveit_resources-ros2/arm'
+[0.772s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.772s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laxmi-arz-i006/moveit_resources-ros2/build/hello_moveit -- -j16 -l16
+[0.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/mycobot_mtc_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laxmi-arz-i006/moveit_resources-ros2/build/mycobot_mtc_demos -- -j16 -l16
+[0.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_fanuc_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_fanuc_description -- -j16 -l16
+[0.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_fanuc_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_fanuc_description
+[0.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_panda_description -- -j16 -l16
+[0.807s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_panda_description
+[1.150s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/laxmi-arz-i006/moveit_resources-ros2/panda_gazebo'
+[1.150s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.150s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.157s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_pr2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_pr2_description -- -j16 -l16
+[1.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_pr2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_pr2_description
+[1.171s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_resources_fanuc_description)
+[1.185s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description' for CMake module files
+[1.186s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description' for CMake config files
+[1.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_fanuc_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_fanuc_description
+[1.195s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_resources_fanuc_description', 'cmake_prefix_path')
+[1.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/hook/cmake_prefix_path.ps1'
+[1.197s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/hook/cmake_prefix_path.dsv'
+[1.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/hook/cmake_prefix_path.sh'
+[1.203s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description/bin'
+[1.203s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description/lib/pkgconfig/moveit_resources_fanuc_description.pc'
+[1.203s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description/lib/python3.12/site-packages'
+[1.205s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description/bin'
+[1.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/package.ps1'
+[1.208s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/package.dsv'
+[1.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/package.sh'
+[1.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/package.bash'
+[1.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/package.zsh'
+[1.218s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description/share/colcon-core/packages/moveit_resources_fanuc_description)
+[1.220s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_resources_fanuc_description)
+[1.220s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description' for CMake module files
+[1.223s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description' for CMake config files
+[1.230s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_resources_fanuc_description', 'cmake_prefix_path')
+[1.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/hook/cmake_prefix_path.ps1'
+[1.231s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/hook/cmake_prefix_path.dsv'
+[1.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/hook/cmake_prefix_path.sh'
+[1.235s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description/bin'
+[1.235s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description/lib/pkgconfig/moveit_resources_fanuc_description.pc'
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description/lib/python3.12/site-packages'
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description/bin'
+[1.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/package.ps1'
+[1.239s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/package.dsv'
+[1.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/package.sh'
+[1.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/package.bash'
+[1.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/package.zsh'
+[1.244s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description/share/colcon-core/packages/moveit_resources_fanuc_description)
+[1.247s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_resources_panda_description)
+[1.248s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description' for CMake module files
+[1.249s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description' for CMake config files
+[1.252s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_resources_panda_description', 'cmake_prefix_path')
+[1.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/hook/cmake_prefix_path.ps1'
+[1.254s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/hook/cmake_prefix_path.dsv'
+[1.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/hook/cmake_prefix_path.sh'
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description/bin'
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description/lib/pkgconfig/moveit_resources_panda_description.pc'
+[1.257s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description/lib/python3.12/site-packages'
+[1.257s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description/bin'
+[1.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.ps1'
+[1.259s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.dsv'
+[1.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.sh'
+[1.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.bash'
+[1.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.zsh'
+[1.269s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description/share/colcon-core/packages/moveit_resources_panda_description)
+[1.270s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_resources_panda_description)
+[1.271s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description' for CMake module files
+[1.272s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description' for CMake config files
+[1.274s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_resources_panda_description', 'cmake_prefix_path')
+[1.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/hook/cmake_prefix_path.ps1'
+[1.275s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/hook/cmake_prefix_path.dsv'
+[1.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/hook/cmake_prefix_path.sh'
+[1.277s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description/bin'
+[1.278s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description/lib/pkgconfig/moveit_resources_panda_description.pc'
+[1.278s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description/lib/python3.12/site-packages'
+[1.278s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description/bin'
+[1.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.ps1'
+[1.280s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.dsv'
+[1.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.sh'
+[1.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.bash'
+[1.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.zsh'
+[1.283s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description/share/colcon-core/packages/moveit_resources_panda_description)
+[1.284s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/laxmi-arz-i006/moveit_resources-ros2/fanuc_moveit_config' with build type 'ament_cmake'
+[1.285s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/laxmi-arz-i006/moveit_resources-ros2/fanuc_moveit_config'
+[1.285s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.285s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laxmi-arz-i006/moveit_resources-ros2/build/hello_moveit -- -j16 -l16
+[1.292s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laxmi-arz-i006/moveit_resources-ros2/build/hello_moveit
+[1.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_panda_description
+[1.298s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/laxmi-arz-i006/moveit_resources-ros2/panda_moveit_config' with build type 'ament_cmake'
+[1.298s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/laxmi-arz-i006/moveit_resources-ros2/panda_moveit_config'
+[1.299s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.299s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.311s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hello_moveit)
+[1.311s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit' for CMake module files
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit' for CMake config files
+[1.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laxmi-arz-i006/moveit_resources-ros2/build/hello_moveit
+[1.317s] Level 1:colcon.colcon_core.shell:create_environment_hook('hello_moveit', 'cmake_prefix_path')
+[1.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/hook/cmake_prefix_path.ps1'
+[1.318s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/hook/cmake_prefix_path.dsv'
+[1.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/hook/cmake_prefix_path.sh'
+[1.319s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/lib'
+[1.319s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/bin'
+[1.319s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/lib/pkgconfig/hello_moveit.pc'
+[1.320s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/lib/python3.12/site-packages'
+[1.320s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/bin'
+[1.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/package.ps1'
+[1.321s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/package.dsv'
+[1.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/package.sh'
+[1.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/package.bash'
+[1.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/package.zsh'
+[1.323s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/colcon-core/packages/hello_moveit)
+[1.323s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hello_moveit)
+[1.323s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit' for CMake module files
+[1.324s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit' for CMake config files
+[1.324s] Level 1:colcon.colcon_core.shell:create_environment_hook('hello_moveit', 'cmake_prefix_path')
+[1.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/hook/cmake_prefix_path.ps1'
+[1.325s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/hook/cmake_prefix_path.dsv'
+[1.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/hook/cmake_prefix_path.sh'
+[1.326s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/lib'
+[1.326s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/bin'
+[1.326s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/lib/pkgconfig/hello_moveit.pc'
+[1.327s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/lib/python3.12/site-packages'
+[1.327s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/bin'
+[1.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/package.ps1'
+[1.328s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/package.dsv'
+[1.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/package.sh'
+[1.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/package.bash'
+[1.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/hello_moveit/package.zsh'
+[1.330s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/laxmi-arz-i006/moveit_resources-ros2/install/hello_moveit/share/colcon-core/packages/hello_moveit)
+[1.330s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_resources_pr2_description)
+[1.330s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description' for CMake module files
+[1.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_pr2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_pr2_description
+[1.332s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description' for CMake config files
+[1.332s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_resources_pr2_description', 'cmake_prefix_path')
+[1.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description/share/moveit_resources_pr2_description/hook/cmake_prefix_path.ps1'
+[1.333s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description/share/moveit_resources_pr2_description/hook/cmake_prefix_path.dsv'
+[1.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description/share/moveit_resources_pr2_description/hook/cmake_prefix_path.sh'
+[1.334s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description/bin'
+[1.334s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description/lib/pkgconfig/moveit_resources_pr2_description.pc'
+[1.335s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description/lib/python3.12/site-packages'
+[1.335s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description/bin'
+[1.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description/share/moveit_resources_pr2_description/package.ps1'
+[1.336s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description/share/moveit_resources_pr2_description/package.dsv'
+[1.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description/share/moveit_resources_pr2_description/package.sh'
+[1.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description/share/moveit_resources_pr2_description/package.bash'
+[1.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description/share/moveit_resources_pr2_description/package.zsh'
+[1.338s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description/share/colcon-core/packages/moveit_resources_pr2_description)
+[1.339s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_resources_pr2_description)
+[1.339s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description' for CMake module files
+[1.340s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description' for CMake config files
+[1.340s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_resources_pr2_description', 'cmake_prefix_path')
+[1.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description/share/moveit_resources_pr2_description/hook/cmake_prefix_path.ps1'
+[1.341s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description/share/moveit_resources_pr2_description/hook/cmake_prefix_path.dsv'
+[1.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description/share/moveit_resources_pr2_description/hook/cmake_prefix_path.sh'
+[1.343s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description/bin'
+[1.343s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description/lib/pkgconfig/moveit_resources_pr2_description.pc'
+[1.344s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description/lib/python3.12/site-packages'
+[1.345s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description/bin'
+[1.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description/share/moveit_resources_pr2_description/package.ps1'
+[1.346s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description/share/moveit_resources_pr2_description/package.dsv'
+[1.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description/share/moveit_resources_pr2_description/package.sh'
+[1.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description/share/moveit_resources_pr2_description/package.bash'
+[1.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description/share/moveit_resources_pr2_description/package.zsh'
+[1.349s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description/share/colcon-core/packages/moveit_resources_pr2_description)
+[1.355s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_fanuc_moveit_config': AMENT_PREFIX_PATH=/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_fanuc_moveit_config -- -j16 -l16
+[1.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_panda_moveit_config': AMENT_PREFIX_PATH=/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_panda_moveit_config -- -j16 -l16
+[1.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_fanuc_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_fanuc_moveit_config -- -j16 -l16
+[1.418s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_fanuc_moveit_config': AMENT_PREFIX_PATH=/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_fanuc_moveit_config
+[1.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_panda_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_panda_moveit_config -- -j16 -l16
+[1.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_panda_moveit_config': AMENT_PREFIX_PATH=/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_panda_moveit_config
+[1.435s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_resources_fanuc_moveit_config)
+[1.435s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config' for CMake module files
+[1.438s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config' for CMake config files
+[1.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_fanuc_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_fanuc_moveit_config
+[1.442s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_resources_fanuc_moveit_config', 'cmake_prefix_path')
+[1.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/hook/cmake_prefix_path.ps1'
+[1.443s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/hook/cmake_prefix_path.dsv'
+[1.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/hook/cmake_prefix_path.sh'
+[1.444s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config/bin'
+[1.444s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config/lib/pkgconfig/moveit_resources_fanuc_moveit_config.pc'
+[1.445s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config/lib/python3.12/site-packages'
+[1.445s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config/bin'
+[1.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/package.ps1'
+[1.446s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/package.dsv'
+[1.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/package.sh'
+[1.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/package.bash'
+[1.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/package.zsh'
+[1.448s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config/share/colcon-core/packages/moveit_resources_fanuc_moveit_config)
+[1.449s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_resources_fanuc_moveit_config)
+[1.449s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config' for CMake module files
+[1.449s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config' for CMake config files
+[1.450s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_resources_fanuc_moveit_config', 'cmake_prefix_path')
+[1.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/hook/cmake_prefix_path.ps1'
+[1.450s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/hook/cmake_prefix_path.dsv'
+[1.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/hook/cmake_prefix_path.sh'
+[1.451s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config/bin'
+[1.452s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config/lib/pkgconfig/moveit_resources_fanuc_moveit_config.pc'
+[1.452s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config/lib/python3.12/site-packages'
+[1.452s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config/bin'
+[1.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/package.ps1'
+[1.453s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/package.dsv'
+[1.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/package.sh'
+[1.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/package.bash'
+[1.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/package.zsh'
+[1.455s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config/share/colcon-core/packages/moveit_resources_fanuc_moveit_config)
+[1.456s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_resources_panda_moveit_config)
+[1.457s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config' for CMake module files
+[1.458s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config' for CMake config files
+[1.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_panda_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources_panda_moveit_config
+[1.459s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_resources_panda_moveit_config', 'cmake_prefix_path')
+[1.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/hook/cmake_prefix_path.ps1'
+[1.460s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/hook/cmake_prefix_path.dsv'
+[1.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/hook/cmake_prefix_path.sh'
+[1.462s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config/bin'
+[1.462s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config/lib/pkgconfig/moveit_resources_panda_moveit_config.pc'
+[1.462s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config/lib/python3.12/site-packages'
+[1.462s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config/bin'
+[1.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/package.ps1'
+[1.464s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/package.dsv'
+[1.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/package.sh'
+[1.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/package.bash'
+[1.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/package.zsh'
+[1.465s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config/share/colcon-core/packages/moveit_resources_panda_moveit_config)
+[1.466s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_resources_panda_moveit_config)
+[1.466s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config' for CMake module files
+[1.467s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config' for CMake config files
+[1.467s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_resources_panda_moveit_config', 'cmake_prefix_path')
+[1.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/hook/cmake_prefix_path.ps1'
+[1.468s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/hook/cmake_prefix_path.dsv'
+[1.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/hook/cmake_prefix_path.sh'
+[1.469s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config/bin'
+[1.469s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config/lib/pkgconfig/moveit_resources_panda_moveit_config.pc'
+[1.469s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config/lib/python3.12/site-packages'
+[1.469s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config/bin'
+[1.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/package.ps1'
+[1.470s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/package.dsv'
+[1.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/package.sh'
+[1.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/package.bash'
+[1.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/package.zsh'
+[1.472s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config/share/colcon-core/packages/moveit_resources_panda_moveit_config)
+[1.472s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/laxmi-arz-i006/moveit_resources-ros2/moveit_resources' with build type 'ament_cmake'
+[1.473s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/laxmi-arz-i006/moveit_resources-ros2/moveit_resources'
+[1.473s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.473s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources': AMENT_PREFIX_PATH=/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources -- -j16 -l16
+[1.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources' returned '0': AMENT_PREFIX_PATH=/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources -- -j16 -l16
+[1.560s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources': AMENT_PREFIX_PATH=/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources
+[1.576s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_resources)
+[1.576s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources' for CMake module files
+[1.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources' returned '0': AMENT_PREFIX_PATH=/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_moveit_config:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_moveit_config:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_pr2_description:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_panda_description:/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources_fanuc_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laxmi-arz-i006/moveit_resources-ros2/build/moveit_resources
+[1.577s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources' for CMake config files
+[1.578s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_resources', 'cmake_prefix_path')
+[1.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources/share/moveit_resources/hook/cmake_prefix_path.ps1'
+[1.578s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources/share/moveit_resources/hook/cmake_prefix_path.dsv'
+[1.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources/share/moveit_resources/hook/cmake_prefix_path.sh'
+[1.579s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources/bin'
+[1.579s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources/lib/pkgconfig/moveit_resources.pc'
+[1.580s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources/lib/python3.12/site-packages'
+[1.580s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources/bin'
+[1.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources/share/moveit_resources/package.ps1'
+[1.581s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources/share/moveit_resources/package.dsv'
+[1.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources/share/moveit_resources/package.sh'
+[1.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources/share/moveit_resources/package.bash'
+[1.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources/share/moveit_resources/package.zsh'
+[1.582s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources/share/colcon-core/packages/moveit_resources)
+[1.583s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_resources)
+[1.583s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources' for CMake module files
+[1.584s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources' for CMake config files
+[1.584s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_resources', 'cmake_prefix_path')
+[1.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources/share/moveit_resources/hook/cmake_prefix_path.ps1'
+[1.585s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources/share/moveit_resources/hook/cmake_prefix_path.dsv'
+[1.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources/share/moveit_resources/hook/cmake_prefix_path.sh'
+[1.586s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources/bin'
+[1.586s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources/lib/pkgconfig/moveit_resources.pc'
+[1.586s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources/lib/python3.12/site-packages'
+[1.586s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources/bin'
+[1.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources/share/moveit_resources/package.ps1'
+[1.588s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources/share/moveit_resources/package.dsv'
+[1.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources/share/moveit_resources/package.sh'
+[1.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources/share/moveit_resources/package.bash'
+[1.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources/share/moveit_resources/package.zsh'
+[1.590s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/laxmi-arz-i006/moveit_resources-ros2/install/moveit_resources/share/colcon-core/packages/moveit_resources)
+[2.251s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/laxmi-arz-i006/moveit_resources-ros2/arm': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/laxmi-arz-i006/moveit_resources-ros2/build/arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/laxmi-arz-i006/moveit_resources-ros2/install/arm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/arm build --build-base /home/laxmi-arz-i006/moveit_resources-ros2/build/arm/build install --record /home/laxmi-arz-i006/moveit_resources-ros2/build/arm/install.log --single-version-externally-managed install_data
+[2.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/laxmi-arz-i006/moveit_resources-ros2/panda_gazebo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/laxmi-arz-i006/moveit_resources-ros2/build/panda_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/panda_gazebo build --build-base /home/laxmi-arz-i006/moveit_resources-ros2/build/panda_gazebo/build install --record /home/laxmi-arz-i006/moveit_resources-ros2/build/panda_gazebo/install.log --single-version-externally-managed install_data
+[3.102s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/arm' for CMake module files
+[3.103s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/laxmi-arz-i006/moveit_resources-ros2/arm' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/laxmi-arz-i006/moveit_resources-ros2/build/arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/laxmi-arz-i006/moveit_resources-ros2/install/arm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/arm build --build-base /home/laxmi-arz-i006/moveit_resources-ros2/build/arm/build install --record /home/laxmi-arz-i006/moveit_resources-ros2/build/arm/install.log --single-version-externally-managed install_data
+[3.104s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/arm' for CMake config files
+[3.105s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/arm/lib'
+[3.105s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/arm/bin'
+[3.106s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/arm/lib/pkgconfig/arm.pc'
+[3.106s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/arm/lib/python3.12/site-packages'
+[3.106s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm', 'pythonpath')
+[3.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/arm/share/arm/hook/pythonpath.ps1'
+[3.108s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/arm/share/arm/hook/pythonpath.dsv'
+[3.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/arm/share/arm/hook/pythonpath.sh'
+[3.110s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/arm/bin'
+[3.110s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm)
+[3.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/arm/share/arm/package.ps1'
+[3.111s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/arm/share/arm/package.dsv'
+[3.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/arm/share/arm/package.sh'
+[3.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/arm/share/arm/package.bash'
+[3.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/arm/share/arm/package.zsh'
+[3.115s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/laxmi-arz-i006/moveit_resources-ros2/install/arm/share/colcon-core/packages/arm)
+[3.164s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo' for CMake module files
+[3.165s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/laxmi-arz-i006/moveit_resources-ros2/panda_gazebo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/laxmi-arz-i006/moveit_resources-ros2/build/panda_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/panda_gazebo build --build-base /home/laxmi-arz-i006/moveit_resources-ros2/build/panda_gazebo/build install --record /home/laxmi-arz-i006/moveit_resources-ros2/build/panda_gazebo/install.log --single-version-externally-managed install_data
+[3.166s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo' for CMake config files
+[3.167s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/lib'
+[3.167s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/bin'
+[3.167s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/lib/pkgconfig/panda_gazebo.pc'
+[3.168s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/lib/python3.12/site-packages'
+[3.168s] Level 1:colcon.colcon_core.shell:create_environment_hook('panda_gazebo', 'pythonpath')
+[3.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/panda_gazebo/hook/pythonpath.ps1'
+[3.170s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/panda_gazebo/hook/pythonpath.dsv'
+[3.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/panda_gazebo/hook/pythonpath.sh'
+[3.172s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/bin'
+[3.172s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(panda_gazebo)
+[3.173s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/panda_gazebo/package.ps1'
+[3.173s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/panda_gazebo/package.dsv'
+[3.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/panda_gazebo/package.sh'
+[3.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/panda_gazebo/package.bash'
+[3.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/panda_gazebo/package.zsh'
+[3.177s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/laxmi-arz-i006/moveit_resources-ros2/install/panda_gazebo/share/colcon-core/packages/panda_gazebo)
+[14.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/mycobot_mtc_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laxmi-arz-i006/moveit_resources-ros2/build/mycobot_mtc_demos -- -j16 -l16
+[14.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/mycobot_mtc_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laxmi-arz-i006/moveit_resources-ros2/build/mycobot_mtc_demos
+[14.527s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycobot_mtc_demos)
+[14.527s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos' for CMake module files
+[14.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/laxmi-arz-i006/moveit_resources-ros2/build/mycobot_mtc_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laxmi-arz-i006/moveit_resources-ros2/build/mycobot_mtc_demos
+[14.528s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos' for CMake config files
+[14.529s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_mtc_demos', 'cmake_prefix_path')
+[14.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/mycobot_mtc_demos/hook/cmake_prefix_path.ps1'
+[14.529s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/mycobot_mtc_demos/hook/cmake_prefix_path.dsv'
+[14.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/mycobot_mtc_demos/hook/cmake_prefix_path.sh'
+[14.530s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/lib'
+[14.530s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/bin'
+[14.530s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/lib/pkgconfig/mycobot_mtc_demos.pc'
+[14.531s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/lib/python3.12/site-packages'
+[14.531s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/bin'
+[14.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/mycobot_mtc_demos/package.ps1'
+[14.532s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/mycobot_mtc_demos/package.dsv'
+[14.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/mycobot_mtc_demos/package.sh'
+[14.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/mycobot_mtc_demos/package.bash'
+[14.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/mycobot_mtc_demos/package.zsh'
+[14.533s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/colcon-core/packages/mycobot_mtc_demos)
+[14.533s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycobot_mtc_demos)
+[14.533s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos' for CMake module files
+[14.534s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos' for CMake config files
+[14.534s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_mtc_demos', 'cmake_prefix_path')
+[14.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/mycobot_mtc_demos/hook/cmake_prefix_path.ps1'
+[14.535s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/mycobot_mtc_demos/hook/cmake_prefix_path.dsv'
+[14.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/mycobot_mtc_demos/hook/cmake_prefix_path.sh'
+[14.535s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/lib'
+[14.536s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/bin'
+[14.536s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/lib/pkgconfig/mycobot_mtc_demos.pc'
+[14.536s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/lib/python3.12/site-packages'
+[14.536s] Level 1:colcon.colcon_core.environment:checking '/home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/bin'
+[14.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/mycobot_mtc_demos/package.ps1'
+[14.537s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/mycobot_mtc_demos/package.dsv'
+[14.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/mycobot_mtc_demos/package.sh'
+[14.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/mycobot_mtc_demos/package.bash'
+[14.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/mycobot_mtc_demos/package.zsh'
+[14.538s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/laxmi-arz-i006/moveit_resources-ros2/install/mycobot_mtc_demos/share/colcon-core/packages/mycobot_mtc_demos)
+[14.538s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.539s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.539s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[14.539s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.548s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.548s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.548s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.585s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.586s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/laxmi-arz-i006/moveit_resources-ros2/install/local_setup.ps1'
+[14.587s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/laxmi-arz-i006/moveit_resources-ros2/install/_local_setup_util_ps1.py'
+[14.589s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/laxmi-arz-i006/moveit_resources-ros2/install/setup.ps1'
+[14.591s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/laxmi-arz-i006/moveit_resources-ros2/install/local_setup.sh'
+[14.591s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/laxmi-arz-i006/moveit_resources-ros2/install/_local_setup_util_sh.py'
+[14.592s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/laxmi-arz-i006/moveit_resources-ros2/install/setup.sh'
+[14.593s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/laxmi-arz-i006/moveit_resources-ros2/install/local_setup.bash'
+[14.594s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/laxmi-arz-i006/moveit_resources-ros2/install/setup.bash'
+[14.595s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/laxmi-arz-i006/moveit_resources-ros2/install/local_setup.zsh'
+[14.596s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/laxmi-arz-i006/moveit_resources-ros2/install/setup.zsh'

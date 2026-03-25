@@ -1,0 +1,17 @@
+[01m[K/home/laxmi-arz-i006/moveit_resources-ros2/hello_moveit/src/hello_moveit_v2.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/laxmi-arz-i006/moveit_resources-ros2/hello_moveit/src/hello_moveit_v2.cpp:127:54:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble moveit::planning_interface::MoveGroupInterface::[01;32m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&, double, double, moveit_msgs::msg::RobotTrajectory&, bool, moveit_msgs::msg::MoveItErrorCodes*)[m[K’ is deprecated: Drop jump_threshold [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  127 |     double fraction = [01;35m[Kmove_group.computeCartesianPath([m[K
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+  128 | [01;35m[K        waypoints, 0.002, 0.0, traj)[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                  
+In file included from [01m[K/home/laxmi-arz-i006/moveit_resources-ros2/hello_moveit/src/hello_moveit_v2.cpp:5[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:765:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  765 |   [01;36m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose>& waypoints, double eef_step,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/laxmi-arz-i006/moveit_resources-ros2/hello_moveit/src/hello_moveit_v2.cpp:145:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct moveit::planning_interface::MoveGroupInterface::Plan[m[K’ has no member named ‘[01m[Ktrajectory_[m[K’; did you mean ‘[01m[Ktrajectory[m[K’?
+  145 |     plan.[01;31m[Ktrajectory_[m[K = traj;
+      |          [01;31m[K^~~~~~~~~~~[m[K
+      |          [32m[Ktrajectory[m[K
+gmake[2]: *** [CMakeFiles/hello_moveit_v2.dir/build.make:76: CMakeFiles/hello_moveit_v2.dir/src/hello_moveit_v2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/hello_moveit_v2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
