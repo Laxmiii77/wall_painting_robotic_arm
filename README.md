@@ -1,5 +1,10 @@
 # 🖌️ Wall Painting Robot (ROS 2 + MoveIt 2)
 
+## Simulation Video
+[https://www.youtube.com/watch?v=1SAAv57ydL4](https://www.youtube.com/watch?v=h-pQkV4MC3g)
+
+<image src=image.png/>
+
 ## 📌 Overview
 This project focuses on designing and simulating a robotic wall-painting system using a **Franka Panda manipulator** in a **ROS 2 + MoveIt 2** environment.
 
@@ -26,39 +31,6 @@ The system generates optimized painting trajectories, executes smooth Cartesian 
 
 ---
 
-## 🧩 Approach
-
-### Approach 1: Vision-Based Detection
-- Used depth camera and point cloud processing  
-- Extracted wall geometry dynamically  
-- Limitation: computationally expensive and unstable  
-
-### Approach 2: Parameter-Based Planning (Final)
-- Wall defined using:
-  - `wall_width`
-  - `wall_height`
-  - `wall_center`
-  - `offset`
-- Focus shifted to efficient path planning and execution  
-
----
-
-## 🧮 Waypoint Generation Logic
-- Wall divided into horizontal stripes  
-- Zig-zag traversal pattern:
-  - Even rows → left to right  
-  - Odd rows → right to left  
-- Maintains constant distance and orientation  
-
----
-
-## 🤖 Motion Planning
-- Implemented using **MoveGroupInterface**
-- Uses `computeCartesianPath()` for trajectory planning  
-- Handles inverse kinematics and collision checking  
-- Returns trajectory and completion fraction  
-
----
 
 ## 📊 Results
 
